@@ -1,0 +1,77 @@
+body{
+    background-image: url(fondo.jpg);
+    background-size: cover;
+}
+
+header{
+color: aliceblue;
+
+}
+nav {
+    background: linear-gradient(to right,#D4AF37,#996515);
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: rgb(85, 30, 30);
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #373018;
+}
+
+
+
+
+.texto{
+  /* Fuente tipo manuscrita pero legible */
+  font-family: 'Pacifico', cursive;
+  font-size: 100px;
+  
+  color: #827824; 
+  
+  display: inline-block;
+  line-height: 1;
+  
+  /* sombra */
+  text-shadow: 2px 2px 0px hsl(0, 17%, 88%); 
+  
+  transition: transform 0.3s ease;
+}
+
+/* Ajuste para Desktop View 1024px */
+@media (min-width: 1024px) {
+  .texto {
+    font-size: 180px; /* Más grande en computadoras */
+  }
+  
+}
+
+
+
+.foto {
+  background-color: #1A1A1A; /* Fondo negro */
+  padding: 20px;
+}
+
+/* El logo */
+.logo {
+  width: 200px;
+  transition: 0.5s;
+  border-radius: 50%;
+}
+
+/* Cuando la pantalla llega a 1024px */
+@media (min-width: 1024px) {
+  .logo {
+    width: 350px;    /* Se hace más grande en PC */
+    opacity: 0.7;    /* Se desvanece un poco */
+  }
+}
