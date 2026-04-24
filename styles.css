@@ -1,5 +1,5 @@
 body{
-    background-image: url(fondo.jpg);
+    background-color: #1A1A1A;
     background-size: cover;
 }
 
@@ -8,7 +8,7 @@ color: aliceblue;
 
 }
 nav {
-    background: linear-gradient(to right,#D4AF37,#996515);
+    background: linear-gradient(to right,#7b4850,#996515);
     padding: 10px;
     text-align: center;
     position: sticky;
@@ -35,7 +35,7 @@ nav a:hover {
   font-family: 'Pacifico', cursive;
   font-size: 100px;
   
-  color: #827824; 
+  color:#4e381d; 
   
   display: inline-block;
   line-height: 1;
@@ -56,7 +56,7 @@ nav a:hover {
 
 
 
-.foto {
+.header {
   background-color: #1A1A1A; /* Fondo negro */
   padding: 20px;
 }
@@ -74,4 +74,50 @@ nav a:hover {
     width: 350px;    /* Se hace más grande en PC */
     opacity: 0.7;    /* Se desvanece un poco */
   }
+}
+
+.events{
+  background-color: #1A1A1A;
+  color: aliceblue;
+  
+}
+
+  
+    
+
+
+
+table {
+  width: 100%;
+  border-collapse: collapse; /* Une los bordes */
+  width: 185vh;           /* Ancho de la caja */
+    height: 200px;          /* Alto de la caja */
+    background-color: #1A1A1A; /* Color de fondo */
+    border: 2px solid #1A1A1A; /* Borde opcional */
+    border-radius: 8px;     /* Bordes redondeados opcionales */
+
+}
+th, td {
+  border: 1px solid rgb(124, 82, 27);
+  padding: 8px;
+  text-align: left;
+  color: aliceblue;
+}
+
+.btn{
+  display: inline-block;
+    padding: 10px 15px;
+    background: linear-gradient(135deg, #583823, #4e260d);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero{
+  
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url(portada.webp);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
 }
