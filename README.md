@@ -1,6 +1,6 @@
-#GOURMET FUSION FESTIVAL
+# GOURMET FUSION FESTIVAL
 
-##DESCRIPTION
+## DESCRIPTION
 <P>
 This project is a website about a gastronomic festival.
 It includes information about schedules, guest chefs, a food gallery, and contact details.
